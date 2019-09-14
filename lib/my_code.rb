@@ -8,3 +8,8 @@ def map_to_no_change(array)
   new_array = array.map {|number| number }
   new_array
 end
+
+def map_to_double(array)
+  new_array = array.map {|number| number * 2}
+  new_array
+end
