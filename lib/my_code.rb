@@ -13,3 +13,8 @@ def map_to_double(array)
   new_array = array.map {|number| number * 2}
   new_array
 end
+
+def map_to_square(array)
+  new_array = array.map {|number| number ** 2}
+  new_array
+end
